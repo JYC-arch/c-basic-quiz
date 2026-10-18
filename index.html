@@ -1,0 +1,100 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>社區護理三單元線上小考</title><style>
+:root{--ink:#1a1a1a;--muted:#5a5a5a;--rule:#d0d0d0;--accent:#0b5a7a;--pick:#e3f0f6;--warn:#9a3b00;--bg:#eef0f2;--card:#fff}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+ font-size:16px;line-height:1.6;padding-bottom:84px}
+main{max-width:760px;margin:0 auto;padding:16px}
+h1{font-size:21px;margin:8px 0 2px;text-align:center}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin-bottom:14px}
+.card{background:var(--card);border-radius:10px;padding:14px 16px;margin:0 0 12px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.who{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.who label{display:flex;flex-direction:column;font-size:14px;color:var(--muted)}
+.who input{font:inherit;color:var(--ink);padding:8px 10px;border:1px solid var(--rule);border-radius:6px;margin-top:3px}
+.who input:invalid:not(:placeholder-shown){border-color:var(--warn)}
+.rules{font-size:14px;color:var(--muted);margin:8px 0 0}
+h2{font-size:15px;margin:20px 0 8px;padding:3px 10px;border-left:4px solid var(--accent);background:#e4edf1}
+.q .stem{margin:0 0 8px}
+.q .stem b{margin-right:4px}
+.q.miss{outline:2px solid var(--warn);outline-offset:2px}
+.opt{display:flex;gap:10px;align-items:flex-start;padding:8px 10px;margin:4px 0;border:1px solid var(--rule);
+ border-radius:8px;cursor:pointer}
+.opt input{margin:5px 0 0;flex:none;width:18px;height:18px}
+.opt:has(input:checked){background:var(--pick);border-color:var(--accent)}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--rule);
+ padding:10px 16px;display:flex;justify-content:center;gap:16px;align-items:center}
+.bar span{font-size:15px}
+button{font:inherit;padding:9px 22px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);
+ color:#fff;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent)}
+button:disabled{opacity:.5;cursor:default}
+dialog{border:0;border-radius:12px;max-width:440px;width:calc(100% - 32px);padding:20px}
+dialog::backdrop{background:rgba(0,0,0,.35)}
+dialog .acts{display:flex;justify-content:flex-end;gap:10px;margin-top:16px}
+.msg{color:var(--warn)}
+.done{text-align:center}
+.done code{font-size:15px}
+.foot{font-size:12px;color:var(--muted);margin:16px 0}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+@media (max-width:560px){.who{grid-template-columns:1fr}}
+</style></head><body><main><h1>社區護理三單元線上小考</h1><div class="sub">民國 111–115 年護理師國家考試歷屆試題・單選題 20 題・每題 5 分・滿分 100 分</div><form id="f" autocomplete="off" onsubmit="return false"><div class="card"><div class="who"><label>學號 *<input name="sid" required pattern="[A-Za-z0-9_\-]{1,32}" maxlength="32" placeholder="例如 4A123456" title="只能使用英文字母、數字、- 或 _"></label><label>姓名 *<input name="sname" required maxlength="40" placeholder="姓名"></label><label>班級<input name="klass" maxlength="40" placeholder="班級"></label></div><p class="rules">每題選出一個最適當的答案。作答會暫存在這台裝置，重新整理頁面不會遺失；按「交卷」後才會送出，此為網頁學生版，按「下載答案卷」儲存 JSON 檔，請依老師指定方式繳交；修改後可再次下載，以老師最後收到的檔案為準。此頁不會自動上傳答案。</p></div><h2>精神科與社區衛生護理學</h2><fieldset class="card q" data-n="1"><p class="stem"><b>1.</b>有關出院準備服務的特性，下列何者最不適當？</p><label class="opt"><input type="radio" name="q1" value="A"><span>(A) 是持續照護體系中重要的轉銜機制</span></label><label class="opt"><input type="radio" name="q1" value="B"><span>(B) 是以機構為中心的照護模式</span></label><label class="opt"><input type="radio" name="q1" value="C"><span>(C) 需要各醫療照顧等專業團隊共同參與</span></label><label class="opt"><input type="radio" name="q1" value="D"><span>(D) 入院即為出院準備的開始</span></label></fieldset><fieldset class="card q" data-n="2"><p class="stem"><b>2.</b>有關長期照護需求評估工具之敘述，下列何者較不適宜？</p><label class="opt"><input type="radio" name="q2" value="A"><span>(A) 使用日常生活活動功能量表（ADLs）評估日常生活功能</span></label><label class="opt"><input type="radio" name="q2" value="B"><span>(B) 使用工具性日常生活活動功能量表（IADLs）評估服藥、家務處理等能力</span></label><label class="opt"><input type="radio" name="q2" value="C"><span>(C) 使用簡易心智狀態問卷調查表（SPMSQ）評估失智等級</span></label><label class="opt"><input type="radio" name="q2" value="D"><span>(D) 使用修正版柯氏量表（Modified Karnofsky Scale）評估自我照顧能力</span></label></fieldset><fieldset class="card q" data-n="3"><p class="stem"><b>3.</b>長期照顧十年計畫2.0 社區整體照護模式C 級巷弄長照站，下列敘述何者最合適？</p><label class="opt"><input type="radio" name="q3" value="A"><span>(A) 為失能者擬定照顧服務計畫及提供長照服務</span></label><label class="opt"><input type="radio" name="q3" value="B"><span>(B) 提供社區健康及亞健康老人預防及延緩失能的服務</span></label><label class="opt"><input type="radio" name="q3" value="C"><span>(C) 提供在地化服務小規模多機能社區式長照服務</span></label><label class="opt"><input type="radio" name="q3" value="D"><span>(D) 為複合型長照服務中心</span></label></fieldset><fieldset class="card q" data-n="4"><p class="stem"><b>4.</b>根據政府長期照顧十年計畫2.0，下列那一類人不符合使用服務資源？</p><label class="opt"><input type="radio" name="q4" value="A"><span>(A) 50 歲，關節退化的獨居者</span></label><label class="opt"><input type="radio" name="q4" value="B"><span>(B) 58 歲，領有身心障礙證明的原住民</span></label><label class="opt"><input type="radio" name="q4" value="C"><span>(C) 54 歲，診斷為年輕型失智症者</span></label><label class="opt"><input type="radio" name="q4" value="D"><span>(D) 66 歲，行動不便，需要協助吃飯、上廁所、洗澡之老人</span></label></fieldset><fieldset class="card q" data-n="5"><p class="stem"><b>5.</b>根據長期照顧十年計畫2.0，有關喘息服務，下列敘述何者最不適當？</p><label class="opt"><input type="radio" name="q5" value="A"><span>(A) 以照顧者需求為主的服務模式</span></label><label class="opt"><input type="radio" name="q5" value="B"><span>(B) 全額補助，一般戶免部分負擔</span></label><label class="opt"><input type="radio" name="q5" value="C"><span>(C) 家庭外籍看護工休假期間可申請使用</span></label><label class="opt"><input type="radio" name="q5" value="D"><span>(D) 居家喘息及機構喘息可以合併使用</span></label></fieldset><fieldset class="card q" data-n="6"><p class="stem"><b>6.</b>85歲方奶奶獨居，巴氏量表評估為65分，目前無法自行洗澡和備餐，需有社區志工陪同就醫。若要申請長期照顧服務項目，何項最合適？</p><label class="opt"><input type="radio" name="q6" value="A"><span>(A) 居家護理</span></label><label class="opt"><input type="radio" name="q6" value="B"><span>(B) 居家服務</span></label><label class="opt"><input type="radio" name="q6" value="C"><span>(C) 家庭托顧</span></label><label class="opt"><input type="radio" name="q6" value="D"><span>(D) 居家喘息</span></label></fieldset><fieldset class="card q" data-n="7"><p class="stem"><b>7.</b>有關出院準備服務之敘述，下列何者最不適當？</p><label class="opt"><input type="radio" name="q7" value="A"><span>(A) 服務對象為需要持續性照護之個案</span></label><label class="opt"><input type="radio" name="q7" value="B"><span>(B) 針對每位出院病人均需提供出院準備服務</span></label><label class="opt"><input type="radio" name="q7" value="C"><span>(C) 可連結居家護理及護理之家</span></label><label class="opt"><input type="radio" name="q7" value="D"><span>(D) 追蹤評值項目包含用藥、經濟問題、意外等</span></label></fieldset><fieldset class="card q" data-n="8"><p class="stem"><b>8.</b>孫先生腦中風後右側偏癱，無法繼續開計程車，家庭陷入困境，就讀高二的獨子主動尋求里長和社區護理師的協助。護理師運用家庭功能量表（APGAR）評估，孫家符合下列那一項家庭功能？</p><label class="opt"><input type="radio" name="q8" value="A"><span>(A) 適應度（adaptation）</span></label><label class="opt"><input type="radio" name="q8" value="B"><span>(B) 成長度（growth）</span></label><label class="opt"><input type="radio" name="q8" value="C"><span>(C) 情感度（affection）</span></label><label class="opt"><input type="radio" name="q8" value="D"><span>(D) 融洽度（resolve）</span></label></fieldset><fieldset class="card q" data-n="9"><p class="stem"><b>9.</b>蘇小弟的爸媽皆在學校任教，爸爸因照顧年邁雙親留職停薪，由剛升職為校長的媽媽支撐全家開銷，媽媽因此成為家中事務的主要決策者，此家庭的權力關係最符合下列何種類型？</p><label class="opt"><input type="radio" name="q9" value="A"><span>(A) 傳統權威型</span></label><label class="opt"><input type="radio" name="q9" value="B"><span>(B) 情況權威型</span></label><label class="opt"><input type="radio" name="q9" value="C"><span>(C) 分享權威型</span></label><label class="opt"><input type="radio" name="q9" value="D"><span>(D) 讓步妥協型</span></label></fieldset><fieldset class="card q" data-n="10"><p class="stem"><b>10.</b>依杜瓦爾（Duvall）的家庭發展階段理論，下列敘述何者正確？</p><label class="opt"><input type="radio" name="q10" value="A"><span>(A) 最後一個孩子小於30 個月的家庭，為生育期家庭（early childbearing family）</span></label><label class="opt"><input type="radio" name="q10" value="B"><span>(B) 最後一個孩子介於2 歲半至6 歲之間的家庭，為有學齡前兒童家庭（family with preschoolers）</span></label><label class="opt"><input type="radio" name="q10" value="C"><span>(C) 最後一個孩子13 歲至獨立時（約20 歲）的家庭，為有青少年家庭（family with teenagers）</span></label><label class="opt"><input type="radio" name="q10" value="D"><span>(D) 最後一個孩子獨立離開家至夫妻中有一人退休，為中年期家庭（middle-aged family）</span></label></fieldset><fieldset class="card q" data-n="11"><p class="stem"><b>11.</b>林先生與父親、太太和二位幼稚園女兒同住。請問林家是屬於何種家庭類型？</p><label class="opt"><input type="radio" name="q11" value="A"><span>(A) 公社家庭（commute family）</span></label><label class="opt"><input type="radio" name="q11" value="B"><span>(B) 大家庭（extended family）</span></label><label class="opt"><input type="radio" name="q11" value="C"><span>(C) 折衷家庭（stem family）</span></label><label class="opt"><input type="radio" name="q11" value="D"><span>(D) 核心家庭（nuclear family）</span></label></fieldset><fieldset class="card q" data-n="12"><p class="stem"><b>12.</b>顧先生原為一家之主，因病辭職在家休養，現由妻子支撐全家開銷並成為家中主要經濟決策者，下列何者最符合其家庭權力類型？</p><label class="opt"><input type="radio" name="q12" value="A"><span>(A) 傳統權威型</span></label><label class="opt"><input type="radio" name="q12" value="B"><span>(B) 情況權威型</span></label><label class="opt"><input type="radio" name="q12" value="C"><span>(C) 分享權威型</span></label><label class="opt"><input type="radio" name="q12" value="D"><span>(D) 讓步妥協型</span></label></fieldset><fieldset class="card q" data-n="13"><p class="stem"><b>13.</b>護理師進行家訪時發現，李奶奶因患有退化性骨關節炎而行動不便，李爺爺則患有高血壓和糖尿病，已定期回診並規律服藥控制。下列何者為此家庭最優先的個案管理目標？</p><label class="opt"><input type="radio" name="q13" value="A"><span>(A) 鼓勵李奶奶進行關節置換術，提高自主生活能力</span></label><label class="opt"><input type="radio" name="q13" value="B"><span>(B) 監測並管理李爺爺的服藥遵從性</span></label><label class="opt"><input type="radio" name="q13" value="C"><span>(C) 提供居家安全評估，減少跌倒和其他意外事件的發生</span></label><label class="opt"><input type="radio" name="q13" value="D"><span>(D) 安排社交活動，促進心理健康和社交互動</span></label></fieldset><fieldset class="card q" data-n="14"><p class="stem"><b>14.</b>依據杜瓦爾（Duvall）家庭發展理論，王先生和太太育有一位5 歲小女孩，是屬於下列何種家庭階段？</p><label class="opt"><input type="radio" name="q14" value="A"><span>(A) 結婚期</span></label><label class="opt"><input type="radio" name="q14" value="B"><span>(B) 生育期</span></label><label class="opt"><input type="radio" name="q14" value="C"><span>(C) 成員增加期</span></label><label class="opt"><input type="radio" name="q14" value="D"><span>(D) 成員擴散期</span></label></fieldset><fieldset class="card q" data-n="15"><p class="stem"><b>15.</b>某學校學生在校吃完中餐，多人在2～4 小時後發生噁心、嘔吐、腹瀉等症狀，經送醫後醫療院所推論為食物中毒。下列敘述何者最不適當？</p><label class="opt"><input type="radio" name="q15" value="A"><span>(A) 醫療院所應在24 小時內通知衛生單位</span></label><label class="opt"><input type="radio" name="q15" value="B"><span>(B) 學校應留存剩餘食品、患者嘔吐物或排泄物</span></label><label class="opt"><input type="radio" name="q15" value="C"><span>(C) 推論應為沙門氏菌中毒</span></label><label class="opt"><input type="radio" name="q15" value="D"><span>(D) 感染源可能來自食品受到帶菌之傷口分泌物污染</span></label></fieldset><fieldset class="card q" data-n="16"><p class="stem"><b>16.</b>某校推動營養午餐計畫，期望減少全校體重過重學生人數，下列何者最適合做為評值計畫成果的指標？</p><label class="opt"><input type="radio" name="q16" value="A"><span>(A) 學生對營養午餐的滿意度</span></label><label class="opt"><input type="radio" name="q16" value="B"><span>(B) 推動營養午餐所耗費的成本</span></label><label class="opt"><input type="radio" name="q16" value="C"><span>(C) 推動營養午餐面臨的困難</span></label><label class="opt"><input type="radio" name="q16" value="D"><span>(D) 學生體重過重的盛行率</span></label></fieldset><fieldset class="card q" data-n="17"><p class="stem"><b>17.</b>有關學校護理師應用流行病學方法進行校園評估的目的，下列何者最不適當？</p><label class="opt"><input type="radio" name="q17" value="A"><span>(A) 用於疾病監測</span></label><label class="opt"><input type="radio" name="q17" value="B"><span>(B) 瞭解校園環境中危險因子</span></label><label class="opt"><input type="radio" name="q17" value="C"><span>(C) 用於教學器材設備管理</span></label><label class="opt"><input type="radio" name="q17" value="D"><span>(D) 提供衛生教育宣導</span></label></fieldset><fieldset class="card q" data-n="18"><p class="stem"><b>18.</b>有關國中學生健康檢查事項之敘述，下列何者正確？</p><label class="opt"><input type="radio" name="q18" value="A"><span>(A) 學生定期健康檢查可分為3 個月一次的常規性檢查及1 年一次的全身健康檢查</span></label><label class="opt"><input type="radio" name="q18" value="B"><span>(B) 檢查項目中胸、腹部及泌尿生殖系統需家長及學生同意在校檢查，若家長不同意學生在校檢查，則需自行帶學生至醫療院所自費檢查，並將報告交回學校</span></label><label class="opt"><input type="radio" name="q18" value="C"><span>(C) 學生每學期都需要由護理人員檢查身高、體重與口腔</span></label><label class="opt"><input type="radio" name="q18" value="D"><span>(D) 對於視力不良、肥胖與氣喘等體格缺點需要進行缺點矯治</span></label></fieldset><fieldset class="card q" data-n="19"><p class="stem"><b>19.</b>依學校衛生法，某國小全校班級數為45 班，有關學校衛生人力配置之敘述，下列何者正確？</p><label class="opt"><input type="radio" name="q19" value="A"><span>(A) 護理人員1 名，營養師0 名</span></label><label class="opt"><input type="radio" name="q19" value="B"><span>(B) 護理人員1 名，營養師1 名</span></label><label class="opt"><input type="radio" name="q19" value="C"><span>(C) 護理人員2 名，營養師1 名</span></label><label class="opt"><input type="radio" name="q19" value="D"><span>(D) 護理人員2 名，營養師2 名</span></label></fieldset><fieldset class="card q" data-n="20"><p class="stem"><b>20.</b>下列何者為學生健康體能四大要素中最重要的一項？</p><label class="opt"><input type="radio" name="q20" value="A"><span>(A) 心肺耐力</span></label><label class="opt"><input type="radio" name="q20" value="B"><span>(B) 肌力與肌耐力</span></label><label class="opt"><input type="radio" name="q20" value="C"><span>(C) 柔軟度</span></label><label class="opt"><input type="radio" name="q20" value="D"><span>(D) 身體組成</span></label></fieldset></form><div id="done" class="card done" hidden></div><div class="foot">題目來源：考選部考畢試題查詢平臺 https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx 。官方聲明：「本網站資料，歡迎朋友連結使用。但引用時，請註明資料來源並請確保資料之完整（包括本項宣示在內），均不得任意增刪」2018 Ministry of Examination R.O.C.(Taiwan) All rights reserved.</div></main><div class="bar"><span id="progress"></span><button type="button" id="go">下載答案卷</button></div><dialog id="confirm"><h3 style="margin-top:0">確認下載答案卷</h3><p id="dmsg"></p><div class="acts"><button type="button" class="ghost" id="cancel">返回作答</button><button type="button" id="send">確定下載</button></div></dialog><script type="application/json" id="quiz">{"quiz_id": "4f18d3a0fa81", "count": 20, "allow_resubmit": true}</script><script>
+const Q = JSON.parse(document.getElementById('quiz').textContent);
+const form = document.getElementById('f'), bar = document.getElementById('progress');
+const KEY = 'moex-student-pages-' + Q.quiz_id, started = new Date().toISOString();
+const store = {get(){try{return JSON.parse(localStorage.getItem(KEY)||'null')}catch(e){return null}},
+  set(v){try{localStorage.setItem(KEY, JSON.stringify(v))}catch(e){}}, clear(){try{localStorage.removeItem(KEY)}catch(e){}}};
+function answers(){const a={};for(let n=1;n<=Q.count;n++){const c=form.querySelector(`input[name=q${n}]:checked`);a[n]=c?c.value:''}return a}
+function who(){return {student_id:form.sid.value.trim(),name:form.sname.value.trim(),class:form.klass.value.trim()}}
+function progress(){const a=answers(),k=Object.values(a).filter(Boolean).length;bar.textContent=`已作答 ${k} / ${Q.count} 題`;
+  store.set({who:who(),answers:a,started:(store.get()||{}).started||started});return a}
+const saved = store.get();
+if (saved && saved.who) {
+  form.sid.value=saved.who.student_id||''; form.sname.value=saved.who.name||''; form.klass.value=saved.who.class||'';
+  for (const [n,v] of Object.entries(saved.answers||{})) if (v) { const r=form.querySelector(`input[name=q${n}][value=${v}]`); if(r) r.checked=true; }
+}
+form.addEventListener('input', () => { progress(); document.querySelectorAll('.q.miss').forEach(e=>{if(e.querySelector('input:checked'))e.classList.remove('miss')}); });
+progress();
+const dlg = document.getElementById('confirm'), dmsg = document.getElementById('dmsg');
+document.getElementById('go').addEventListener('click', () => {
+  const w = who();
+  if (!/^[A-Za-z0-9_-]{1,32}$/.test(w.student_id)) { form.sid.focus(); form.sid.reportValidity(); return; }
+  if (!w.name) { form.sname.focus(); form.sname.reportValidity(); return; }
+  const miss = Object.entries(answers()).filter(([,v])=>!v).map(([n])=>n);
+  document.querySelectorAll('.q').forEach(e=>e.classList.toggle('miss', miss.includes(e.dataset.n)));
+  dmsg.innerHTML = `學號 <b>${w.student_id}</b>　姓名 <b>${w.name.replace(/[<&>]/g,'')}</b><br>` + (miss.length
+    ? `<span class=msg>尚有 ${miss.length} 題未作答：第 ${miss.join('、')} 題。</span><br>未作答視為答錯。`
+    : '全部題目都已作答。') + (Q.allow_resubmit ? '<br>將下載答案卷檔案，請依老師指定方式繳交；以老師最後收到的一份為準。' : '<br>交卷後不能再修改答案。');
+  dlg.showModal();
+});
+document.getElementById('cancel').addEventListener('click', () => dlg.close());
+document.getElementById('send').addEventListener('click', async () => {
+  const btn = document.getElementById('send'); btn.disabled = true;
+  const sheet = {...who(), quiz_id:Q.quiz_id, started_at:(store.get()||{}).started||started,
+                 submitted_at:new Date().toISOString(), answers:answers()};
+  let res = null, err = '';
+  err = '此學生頁以下載檔案方式繳交';
+  dlg.close(); btn.disabled = false;
+  if (!res) {  // offline fallback: hand the student the sheet as a file to turn in
+    const blob = new Blob([JSON.stringify(sheet, null, 1)], {type:'application/json'});
+    const a = Object.assign(document.createElement('a'), {href:URL.createObjectURL(blob), download:`${sheet.student_id}.json`});
+    document.body.append(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+  }
+  store.set({who:who(),answers:answers(),started:sheet.started_at,submitted:true}); form.querySelectorAll('input').forEach(i=>i.disabled=true);
+  document.querySelectorAll('.q.miss').forEach(e=>e.classList.remove('miss'));
+  document.querySelector('.bar').hidden = true;
+  const d = document.getElementById('done'); d.hidden = false;
+  d.innerHTML = res
+    ? `<h2>已交卷</h2><p>學號 <code>${res.student_id}</code>・已作答 ${res.answered} / ${Q.count} 題<br>收卷時間 ${res.received_at.slice(0,19).replace('T',' ')}</p>`
+    : `<h2>已產生答案卷檔案</h2><p class=msg>${err}，答案未上傳。</p><p>已下載 <code>${sheet.student_id}.json</code>，請依老師指示繳交此檔案。</p>`;
+  if (Q.allow_resubmit) {
+    const retry = document.createElement('button'); retry.type = 'button'; retry.textContent = '修改後重新下載';
+    retry.onclick = () => { d.hidden=true; form.querySelectorAll('input').forEach(i=>i.disabled=false);
+      document.querySelector('.bar').hidden=false; progress(); form.scrollIntoView({behavior:'smooth'}); };
+    d.append(retry);
+  }
+  d.scrollIntoView({behavior:'smooth'});
+});
+function alertBox(t){dmsg.innerHTML=`<span class=msg>交卷失敗：${t.replace(/[<&>]/g,'')}</span>`;
+  document.getElementById('send').hidden=true;document.getElementById('cancel').textContent='關閉';dlg.showModal();
+  dlg.addEventListener('close',()=>{document.getElementById('send').hidden=false;document.getElementById('cancel').textContent='返回作答'},{once:true})}
+</script></body></html>
