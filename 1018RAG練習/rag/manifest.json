@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-18T01:24:20.854132+00:00",
+  "content_source": "unit04-C-basic/C-basic/*.md ONLY",
+  "source_count": 14,
+  "chunk_count": 1075,
+  "dimension": 384,
+  "model": "local/multilingual-e5-small-quantized",
+  "model_provenance": {
+    "repository": "Xenova/multilingual-e5-small",
+    "revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "files_sha256": {
+      "config.json": "cb99455288675345e1a4f411438d5d0adbba5fbd3a67ea4fb03c015433b996c1",
+      "tokenizer.json": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+      "tokenizer_config.json": "a1d6bc8734a6f635dc158508bef000f8e2e5a759c7d92f984b2c86e5ff53425b",
+      "special_tokens_map.json": "d05497f1da52c5e09554c0cd874037a083e1dc1b9cfd48034d1c717f1afc07a7",
+      "onnx/model_quantized.onnx": "f80102d3f2a1229f387d3c81909990d8945513e347b0eab049f7de3c6f98c193"
+    },
+    "purpose": "Local embedding encoder; not a retrieval content source"
+  },
+  "sources": [
+    {
+      "path": "unit04-C-basic/C-basic/week01-intro-algorithms-first-c-program-lecture-notes.md",
+      "sha256": "58201336eeb3b38ea5ed5a0d8ca5c34fd9754bdbefc15a7800b546c92429d788",
+      "week": 1
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week02-variables-data-types-expressions-lecture-notes.md",
+      "sha256": "f25c9f9dadc5aa3aabca2f05934e26c59d78f9105b4d8d604756ae7b85a4c007",
+      "week": 2
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week03-console-io-formatting-lecture-notes.md",
+      "sha256": "54080b46a7c5736fc6bd154f6ac4aae24c803a94957d7c1173f0532ccf266119",
+      "week": 3
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week04-selection-conditionals-lecture-notes.md",
+      "sha256": "c7417b8453b352124d08eca1e0dc4cf2caf3a3addf42954af33e89134dc9b687",
+      "week": 4
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week05-loops-repetition-lecture-notes.md",
+      "sha256": "03f757f1404f7dc80db2c691ba4c338c4354f21e86301827a4f9c4decd7fbd19",
+      "week": 5
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week06-functions-parameters-scope-lecture-notes.md",
+      "sha256": "1342de044ec57c17e8423799bf09c8d224c4232970275e1959caef6b6878bd89",
+      "week": 6
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week07-arrays-data-processing-lecture-notes.md",
+      "sha256": "5b0748101da0f092b3785c5dec08c501b9d88ba374ac07f8bd4301679c3bdffa",
+      "week": 7
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week08-strings-midterm-integration-lecture-notes.md",
+      "sha256": "2a38a2d392aea72c1de62bab38695d4080d2233bfd9cc97115cdc9b55bb2699f",
+      "week": 8
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week10-pointers-addresses-lecture-notes.md",
+      "sha256": "a65c150b8848ef6494d81d7cd221ffc1bcf507a226a9ee61d9f9064b06c72ea1",
+      "week": 10
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week11-arrays-strings-pointers-lecture-notes.md",
+      "sha256": "ef0a18129ddfd206ad6e942a44e7915ac2280bd08d496d513033c486ee7dd7fc",
+      "week": 11
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week12-structured-programming-multifunction-lecture-notes.md",
+      "sha256": "0c5b2f91629d251ae5d1ce43d5fe34f93ea5627d955f5753a543b9f966ba587b",
+      "week": 12
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week13-file-io-validation-lecture-notes.md",
+      "sha256": "851e8cdad7c61c321b655d1ae24a00c12a453f50f89d2eb21631dec1d5c5993e",
+      "week": 13
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week14-debugging-compiler-diagnostics-lecture-notes.md",
+      "sha256": "aae2e226a493df0d85e892c28af6b7a4d0cea61938f3311c5fae7389bbb93e24",
+      "week": 14
+    },
+    {
+      "path": "unit04-C-basic/C-basic/week15-mini-project-design-lecture-notes.md",
+      "sha256": "605b76be068eb96f921c8b294f8ea574eb87049780bb49c1f0bdbbe96d9813db",
+      "week": 15
+    }
+  ],
+  "chunk_token_limit": 480,
+  "runtime": "offline CPU",
+  "granularity": "section windows + exact source prose paragraphs + source quotations"
+}

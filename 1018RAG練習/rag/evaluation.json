@@ -1,0 +1,519 @@
+{
+  "cases": 12,
+  "passed": 12,
+  "metric": "Top-5 contains expected week and topic term; small authored acceptance set, not general accuracy",
+  "results": [
+    {
+      "query": "printf",
+      "mode": "keyword",
+      "expected_weeks": [
+        1,
+        2,
+        3
+      ],
+      "required_source_term": "printf",
+      "first_relevant_rank": 1,
+      "passed": true,
+      "hits": [
+        {
+          "week": 3,
+          "heading": "2. printf 格式化輸出：欄寬與精度",
+          "citation": "unit04-C-basic/C-basic/week03-console-io-formatting-lecture-notes.md:166-167",
+          "cosine": null
+        },
+        {
+          "week": 6,
+          "heading": "4. 綜合實作：多函式成績報告程式 > C. 完整程式碼",
+          "citation": "unit04-C-basic/C-basic/week06-functions-parameters-scope-lecture-notes.md:536-557",
+          "cosine": null
+        },
+        {
+          "week": 15,
+          "heading": "4. 綜合實作：生活記帳小工具設計與雛型骨架 > C. 完整程式碼",
+          "citation": "unit04-C-basic/C-basic/week15-mini-project-design-lecture-notes.md:424-479",
+          "cosine": null
+        },
+        {
+          "week": 3,
+          "heading": "2. printf 格式化輸出：欄寬與精度 > B. 基本範例",
+          "citation": "unit04-C-basic/C-basic/week03-console-io-formatting-lecture-notes.md:185-208",
+          "cosine": null
+        },
+        {
+          "week": 3,
+          "heading": "2. printf 格式化輸出：欄寬與精度 > A. 概念說明",
+          "citation": "unit04-C-basic/C-basic/week03-console-io-formatting-lecture-notes.md:170-170",
+          "cosine": null
+        }
+      ]
+    },
+    {
+      "query": "%lf",
+      "mode": "keyword",
+      "expected_weeks": [
+        3
+      ],
+      "required_source_term": "%lf",
+      "first_relevant_rank": 1,
+      "passed": true,
+      "hits": [
+        {
+          "week": 3,
+          "heading": "3. 綜合實作：互動式計算器 > C. 完整程式碼",
+          "citation": "unit04-C-basic/C-basic/week03-console-io-formatting-lecture-notes.md:314-373",
+          "cosine": null
+        },
+        {
+          "week": 3,
+          "heading": "1. 用 scanf 讀取使用者輸入 > A. 概念說明",
+          "citation": "unit04-C-basic/C-basic/week03-console-io-formatting-lecture-notes.md:27-27",
+          "cosine": null
+        },
+        {
+          "week": 14,
+          "heading": "2. 讀懂 gcc 診斷訊息 > F. 常見錯誤",
+          "citation": "unit04-C-basic/C-basic/week14-debugging-compiler-diagnostics-lecture-notes.md:386-388",
+          "cosine": null
+        },
+        {
+          "week": 3,
+          "heading": "2. printf 格式化輸出：欄寬與精度 > D. 應用情境：讀取金額並格式化輸出",
+          "citation": "unit04-C-basic/C-basic/week03-console-io-formatting-lecture-notes.md:233-267",
+          "cosine": null
+        },
+        {
+          "week": 2,
+          "heading": "2. 基本資料型別：型別決定大小與用途 > A. 概念說明",
+          "citation": "unit04-C-basic/C-basic/week02-variables-data-types-expressions-lecture-notes.md:141-153",
+          "cosine": null
+        }
+      ]
+    },
+    {
+      "query": "\\0",
+      "mode": "keyword",
+      "expected_weeks": [
+        8,
+        11
+      ],
+      "required_source_term": "\\0",
+      "first_relevant_rank": 1,
+      "passed": true,
+      "hits": [
+        {
+          "week": 8,
+          "heading": "1. 字串的本質：字元陣列與 `\\0`",
+          "citation": "unit04-C-basic/C-basic/week08-strings-midterm-integration-lecture-notes.md:25-26",
+          "cosine": null
+        },
+        {
+          "week": 8,
+          "heading": "1. 字串的本質：字元陣列與 `\\0` > E. 手動追蹤",
+          "citation": "unit04-C-basic/C-basic/week08-strings-midterm-integration-lecture-notes.md:139-148",
+          "cosine": null
+        },
+        {
+          "week": 8,
+          "heading": "1. 字串的本質：字元陣列與 `\\0` > B. 基本範例",
+          "citation": "unit04-C-basic/C-basic/week08-strings-midterm-integration-lecture-notes.md:60-60",
+          "cosine": null
+        },
+        {
+          "week": 8,
+          "heading": "2. 安全讀取一行文字：fgets > E. 手動追蹤",
+          "citation": "unit04-C-basic/C-basic/week08-strings-midterm-integration-lecture-notes.md:281-289",
+          "cosine": null
+        },
+        {
+          "week": 8,
+          "heading": "1. 字串的本質：字元陣列與 `\\0` > C. 推理變化：手動建立字元陣列",
+          "citation": "unit04-C-basic/C-basic/week08-strings-midterm-integration-lecture-notes.md:93-93",
+          "cosine": null
+        }
+      ]
+    },
+    {
+      "query": "陣列",
+      "mode": "keyword",
+      "expected_weeks": [
+        7,
+        11
+      ],
+      "required_source_term": "陣列",
+      "first_relevant_rank": 1,
+      "passed": true,
+      "hits": [
+        {
+          "week": 7,
+          "heading": "1. 陣列宣告、初始化與索引 > C. 推理變化：用 sizeof 計算陣列長度",
+          "citation": "unit04-C-basic/C-basic/week07-arrays-data-processing-lecture-notes.md:70-70",
+          "cosine": null
+        },
+        {
+          "week": 11,
+          "heading": "1. 陣列名稱與指標的關係 > D. 應用情境：陣列進了函式之後，`sizeof` 還可靠嗎？",
+          "citation": "unit04-C-basic/C-basic/week11-arrays-strings-pointers-lecture-notes.md:125-125",
+          "cosine": null
+        },
+        {
+          "week": 8,
+          "heading": "1. 字串的本質：字元陣列與 `\\0` > C. 推理變化：手動建立字元陣列",
+          "citation": "unit04-C-basic/C-basic/week08-strings-midterm-integration-lecture-notes.md:72-72",
+          "cosine": null
+        },
+        {
+          "week": 7,
+          "heading": "2. 用迴圈走訪陣列 > D. 應用情境：把陣列傳入函式處理",
+          "citation": "unit04-C-basic/C-basic/week07-arrays-data-processing-lecture-notes.md:231-231",
+          "cosine": null
+        },
+        {
+          "week": 7,
+          "heading": "2. 用迴圈走訪陣列",
+          "citation": "unit04-C-basic/C-basic/week07-arrays-data-processing-lecture-notes.md:150-151",
+          "cosine": null
+        }
+      ]
+    },
+    {
+      "query": "為什麼平均算完沒有小數",
+      "mode": "hybrid",
+      "expected_weeks": [
+        2,
+        6,
+        7
+      ],
+      "required_source_term": "平均",
+      "first_relevant_rank": 1,
+      "passed": true,
+      "hits": [
+        {
+          "week": 2,
+          "heading": "4. 綜合實作：簡易資料計算程式 > D. 程式碼亮點解析",
+          "citation": "unit04-C-basic/C-basic/week02-variables-data-types-expressions-lecture-notes.md:440-444",
+          "cosine": 0.8733
+        },
+        {
+          "week": 15,
+          "heading": "4. 綜合實作：生活記帳小工具設計與雛型骨架 > E. 測試",
+          "citation": "unit04-C-basic/C-basic/week15-mini-project-design-lecture-notes.md:611-619",
+          "cosine": 0.8749
+        },
+        {
+          "week": 7,
+          "heading": "2. 用迴圈走訪陣列 > C. 推理變化：累加陣列元素求總分與平均",
+          "citation": "unit04-C-basic/C-basic/week07-arrays-data-processing-lecture-notes.md:194-228",
+          "cosine": 0.8663
+        },
+        {
+          "week": 14,
+          "heading": "3. 重現、修正、再測試循環 > B. 基本範例：用 assert() 攔截不合理的狀態",
+          "citation": "unit04-C-basic/C-basic/week14-debugging-compiler-diagnostics-lecture-notes.md:411-411",
+          "cosine": 0.8809
+        },
+        {
+          "week": 2,
+          "heading": "3. 運算式與型別轉換 > B. 基本範例：整數除法陷阱",
+          "citation": "unit04-C-basic/C-basic/week02-variables-data-types-expressions-lecture-notes.md:267-296",
+          "cosine": 0.8786
+        }
+      ]
+    },
+    {
+      "query": "函式內交換兩個數字，回到主程式也要真的換掉",
+      "mode": "hybrid",
+      "expected_weeks": [
+        10
+      ],
+      "required_source_term": "swap",
+      "first_relevant_rank": 1,
+      "passed": true,
+      "hits": [
+        {
+          "week": 10,
+          "heading": "3. 以指標參數修改呼叫端資料 > D. 應用情境：swap 函式交換兩個變數",
+          "citation": "unit04-C-basic/C-basic/week10-pointers-addresses-lecture-notes.md:388-425",
+          "cosine": 0.8978
+        },
+        {
+          "week": 10,
+          "heading": "4. 綜合實作：以指標交換兩筆測驗成績 > D. 程式碼亮點解析",
+          "citation": "unit04-C-basic/C-basic/week10-pointers-addresses-lecture-notes.md:528-530",
+          "cosine": 0.8969
+        },
+        {
+          "week": 15,
+          "heading": "1. 問題定義與 IPO 分析（回顧與延伸） > C. 推理變化：需求多一個持久化限制，函式清單就要跟著長大",
+          "citation": "unit04-C-basic/C-basic/week15-mini-project-design-lecture-notes.md:58-71",
+          "cosine": 0.8982
+        },
+        {
+          "week": 12,
+          "heading": "結論與下一步",
+          "citation": "unit04-C-basic/C-basic/week12-structured-programming-multifunction-lecture-notes.md:707-711",
+          "cosine": 0.8979
+        },
+        {
+          "week": 6,
+          "heading": "結論與下一步",
+          "citation": "unit04-C-basic/C-basic/week06-functions-parameters-scope-lecture-notes.md:581-585",
+          "cosine": 0.9009
+        }
+      ]
+    },
+    {
+      "query": "怎麼判斷兩段文字內容相同",
+      "mode": "hybrid",
+      "expected_weeks": [
+        8
+      ],
+      "required_source_term": "strcmp",
+      "first_relevant_rank": 1,
+      "passed": true,
+      "hits": [
+        {
+          "week": 8,
+          "heading": "3. 字串長度與比對：strlen 與 strcmp > G. 自我檢核",
+          "citation": "unit04-C-basic/C-basic/week08-strings-midterm-integration-lecture-notes.md:449-455",
+          "cosine": 0.8811
+        },
+        {
+          "week": 8,
+          "heading": "3. 字串長度與比對：strlen 與 strcmp > C. 推理變化：用 strcmp 判斷內容是否相同",
+          "citation": "unit04-C-basic/C-basic/week08-strings-midterm-integration-lecture-notes.md:338-374",
+          "cosine": 0.8788
+        },
+        {
+          "week": 11,
+          "heading": "3. 用指標走訪字串 > B. 基本範例",
+          "citation": "unit04-C-basic/C-basic/week11-arrays-strings-pointers-lecture-notes.md:341-380",
+          "cosine": 0.88
+        },
+        {
+          "week": 8,
+          "heading": "3. 字串長度與比對：strlen 與 strcmp > F. 常見錯誤",
+          "citation": "unit04-C-basic/C-basic/week08-strings-midterm-integration-lecture-notes.md:442-448",
+          "cosine": 0.8726
+        },
+        {
+          "week": 13,
+          "heading": "2. 讀取文字檔內容 > F. 常見錯誤",
+          "citation": "unit04-C-basic/C-basic/week13-file-io-validation-lecture-notes.md:282-288",
+          "cosine": 0.8694
+        }
+      ]
+    },
+    {
+      "query": "先做一次才決定要不要再做",
+      "mode": "semantic",
+      "expected_weeks": [
+        5
+      ],
+      "required_source_term": "do",
+      "first_relevant_rank": 1,
+      "passed": true,
+      "hits": [
+        {
+          "week": 5,
+          "heading": "1. while 與 do-while：條件式重複 > A. 概念說明",
+          "citation": "unit04-C-basic/C-basic/week05-loops-repetition-lecture-notes.md:35-35",
+          "cosine": 0.9033
+        },
+        {
+          "week": 15,
+          "heading": "課程簡介",
+          "citation": "unit04-C-basic/C-basic/week15-mini-project-design-lecture-notes.md:14-14",
+          "cosine": 0.8705
+        },
+        {
+          "week": 1,
+          "heading": "3. 第一支 C 程式：hello.c 逐行解讀 > B. 推理變化：多行輸出與換行字元",
+          "citation": "unit04-C-basic/C-basic/week01-intro-algorithms-first-c-program-lecture-notes.md:176-176",
+          "cosine": 0.8689
+        },
+        {
+          "week": 4,
+          "heading": "結論與下一步",
+          "citation": "unit04-C-basic/C-basic/week04-selection-conditionals-lecture-notes.md:750-756",
+          "cosine": 0.867
+        },
+        {
+          "week": 1,
+          "heading": "4. 綜合實作：我的第一支自我介紹程式 > E. 測試",
+          "citation": "unit04-C-basic/C-basic/week01-intro-algorithms-first-c-program-lecture-notes.md:284-290",
+          "cosine": 0.865
+        }
+      ]
+    },
+    {
+      "query": "呼叫很多次之後編號還要接續增加",
+      "mode": "semantic",
+      "expected_weeks": [
+        12
+      ],
+      "required_source_term": "static",
+      "first_relevant_rank": 3,
+      "passed": true,
+      "hits": [
+        {
+          "week": 6,
+          "heading": "2. 參數、引數與傳值呼叫 > C. 推理變化：修改參數不會影響呼叫端變數",
+          "citation": "unit04-C-basic/C-basic/week06-functions-parameters-scope-lecture-notes.md:212-248",
+          "cosine": 0.8824
+        },
+        {
+          "week": 10,
+          "heading": "3. 以指標參數修改呼叫端資料 > B. 基本範例",
+          "citation": "unit04-C-basic/C-basic/week10-pointers-addresses-lecture-notes.md:314-348",
+          "cosine": 0.8815
+        },
+        {
+          "week": 12,
+          "heading": "3. static 區域變數與跨呼叫記憶 > C. 推理變化：拿掉 static 之後",
+          "citation": "unit04-C-basic/C-basic/week12-structured-programming-multifunction-lecture-notes.md:445-479",
+          "cosine": 0.8789
+        },
+        {
+          "week": 6,
+          "heading": "結論與下一步",
+          "citation": "unit04-C-basic/C-basic/week06-functions-parameters-scope-lecture-notes.md:581-585",
+          "cosine": 0.8767
+        },
+        {
+          "week": 12,
+          "heading": "3. static 區域變數與跨呼叫記憶 > B. 基本範例：用 static 記住上一次的值",
+          "citation": "unit04-C-basic/C-basic/week12-structured-programming-multifunction-lecture-notes.md:412-444",
+          "cosine": 0.8755
+        }
+      ]
+    },
+    {
+      "query": "把記錄保存起來下次開啟還能讀回",
+      "mode": "semantic",
+      "expected_weeks": [
+        13,
+        15
+      ],
+      "required_source_term": "檔案",
+      "first_relevant_rank": 1,
+      "passed": true,
+      "hits": [
+        {
+          "week": 15,
+          "heading": "1. 問題定義與 IPO 分析（回顧與延伸） > F. 常見錯誤",
+          "citation": "unit04-C-basic/C-basic/week15-mini-project-design-lecture-notes.md:137-137",
+          "cosine": 0.8717
+        },
+        {
+          "week": 15,
+          "heading": "4. 綜合實作：生活記帳小工具設計與雛型骨架 > C. 完整程式碼",
+          "citation": "unit04-C-basic/C-basic/week15-mini-project-design-lecture-notes.md:531-592",
+          "cosine": 0.8638
+        },
+        {
+          "week": 13,
+          "heading": "2. 讀取文字檔內容 > B. 基本範例",
+          "citation": "unit04-C-basic/C-basic/week13-file-io-validation-lecture-notes.md:164-194",
+          "cosine": 0.8615
+        },
+        {
+          "week": 5,
+          "heading": "1. while 與 do-while：條件式重複 > D. 應用情境：do-while 與哨兵值讀入",
+          "citation": "unit04-C-basic/C-basic/week05-loops-repetition-lecture-notes.md:111-156",
+          "cosine": 0.8612
+        },
+        {
+          "week": 13,
+          "heading": "2. 讀取文字檔內容 > E. 手動追蹤",
+          "citation": "unit04-C-basic/C-basic/week13-file-io-validation-lecture-notes.md:273-281",
+          "cosine": 0.8606
+        }
+      ]
+    },
+    {
+      "query": "讀進來的成績超過一百分應該怎麼處理",
+      "mode": "hybrid",
+      "expected_weeks": [
+        4,
+        13
+      ],
+      "required_source_term": "範圍",
+      "first_relevant_rank": 1,
+      "passed": true,
+      "hits": [
+        {
+          "week": 13,
+          "heading": "4. 綜合實作：學生成績檔案處理報表 > F. 擴展練習",
+          "citation": "unit04-C-basic/C-basic/week13-file-io-validation-lecture-notes.md:624-626",
+          "cosine": 0.8725
+        },
+        {
+          "week": 13,
+          "heading": "4. 綜合實作：學生成績檔案處理報表 > B. 演算法",
+          "citation": "unit04-C-basic/C-basic/week13-file-io-validation-lecture-notes.md:476-507",
+          "cosine": 0.8777
+        },
+        {
+          "week": 4,
+          "heading": "4. 綜合實作：成績等第與獎學金資格判定程式 > F. 擴展練習",
+          "citation": "unit04-C-basic/C-basic/week04-selection-conditionals-lecture-notes.md:744-746",
+          "cosine": 0.8686
+        },
+        {
+          "week": 13,
+          "heading": "4. 綜合實作：學生成績檔案處理報表 > C. 完整程式碼",
+          "citation": "unit04-C-basic/C-basic/week13-file-io-validation-lecture-notes.md:551-607",
+          "cosine": 0.8711
+        },
+        {
+          "week": 15,
+          "heading": "2. 從需求到函式清單 > D. 應用情境：班級小考成績登錄與統計工具（完整設計）",
+          "citation": "unit04-C-basic/C-basic/week15-mini-project-design-lecture-notes.md:195-224",
+          "cosine": 0.8737
+        }
+      ]
+    },
+    {
+      "query": "為什麼把清單交給函式後算不出元素數量",
+      "mode": "semantic",
+      "expected_weeks": [
+        11
+      ],
+      "required_source_term": "sizeof",
+      "first_relevant_rank": 1,
+      "passed": true,
+      "hits": [
+        {
+          "week": 11,
+          "heading": "結論與下一步",
+          "citation": "unit04-C-basic/C-basic/week11-arrays-strings-pointers-lecture-notes.md:614-619",
+          "cosine": 0.898
+        },
+        {
+          "week": 11,
+          "heading": "1. 陣列名稱與指標的關係 > C. 推理變化：透過指標參數修改呼叫端的陣列",
+          "citation": "unit04-C-basic/C-basic/week11-arrays-strings-pointers-lecture-notes.md:116-122",
+          "cosine": 0.8919
+        },
+        {
+          "week": 11,
+          "heading": "1. 陣列名稱與指標的關係 > D. 應用情境：陣列進了函式之後，`sizeof` 還可靠嗎？",
+          "citation": "unit04-C-basic/C-basic/week11-arrays-strings-pointers-lecture-notes.md:123-154",
+          "cosine": 0.8913
+        },
+        {
+          "week": 11,
+          "heading": "4. 綜合實作：以指標函式重寫陣列與字串處理程式 > D. 程式碼亮點解析",
+          "citation": "unit04-C-basic/C-basic/week11-arrays-strings-pointers-lecture-notes.md:589-595",
+          "cosine": 0.8903
+        },
+        {
+          "week": 11,
+          "heading": "1. 陣列名稱與指標的關係 > F. 常見錯誤",
+          "citation": "unit04-C-basic/C-basic/week11-arrays-strings-pointers-lecture-notes.md:187-190",
+          "cosine": 0.8899
+        }
+      ]
+    }
+  ]
+}
